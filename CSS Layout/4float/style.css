@@ -1,0 +1,68 @@
+.kotak {
+	width: 600px;
+	height: 600px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+.notop {
+	border-top: 0px;
+}
+
+.kotak div {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.satu {
+	background-color: red;
+}
+
+.dua {
+	background-color: orange;
+}
+
+.tiga {
+	background-color: yellow;
+}
+
+.empat {
+	background-color: green;
+}
+
+.lima {
+	background-color: blue;
+}
+
+.enam {
+	background-color: purple;
+}
+
+.tujuh {
+	background-color: violet;
+}
+
+.delapan {
+	background-color: coral;
+}
+
+.sembilan {
+	background-color: pink;
+}
+
+img {
+	margin: 0px 10px;
+	width: 200px;
+	float: right;
+}
+
+p {
+	margin: 0px 10px;
+	text-indent: 50px;
+	text-align: justify;
+}
+
+div {
+	overflow: auto;
+}

@@ -1,0 +1,27 @@
+div {
+	width: 200px;
+	height: 200px;
+}
+
+.a1 {
+	background-color: salmon;
+}
+
+.a2 {
+	background-color: lightgreen;
+}
+
+.a3 {
+	background-color: coral;
+}
+
+.a1 {
+	position: static;
+	/*Static adalah position deffault*/
+	margin: 50px 100px 0px;
+}
+
+.a2 {
+	margin-top: -50px
+	/*Dengan position: static; div yang dibawah juga ikut terbawa ke atas*/
+}

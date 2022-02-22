@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*======================================================*/
+
+body {
+	font-variant: small-caps;
+	background-image: url(double-bubble-dark.png);
+	background-attachment: fixed;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*================== Topper ==================*/
+
+.topper {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.heading {
+	background-color: #222831;
+	color: #EEEEEE;
+
+	position: relative;
+	z-index: 3;
+}
+
+.judul {
+	padding: 10px 30px;
+}
+
+.daftarlink ul {
+	border-top: 5px solid #00ADB5;
+}
+
+.daftarlink ul li {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+
+.daftarlink a {
+	display: inherit;
+	font-size: 22px;
+	color: white;
+	width: 100%;
+	padding: 15px 0px;
+}
+
+.daftarlink a:hover {
+	background-color: #393E46;
+}
+
+.ribbon {
+	position: absolute;
+	top: 100px;
+	right: 20px;
+}
+
+.ribbon img {
+	width: 80px;
+}
+
+/*================== Container ==================*/
+
+.container {
+	width: 1000px;
+	margin: 92px auto 0px;
+	background-color: rgb(250,250,250);
+}
+
+.kecil {
+	font-size: 16px;
+}
+
+.painting {
+	height: 600px;
+	background-image: url(europeana-unsplash.jpg);
+	background-size: cover;
+}
+
+.content {
+	margin: 20px 25px 50px;
+}
+
+.copyr {
+	display: block;
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	font-variant: normal;
+	color: #EEEEEE;
+	background-color: #222831;
+	padding: 20px;
+}
+
+.main {
+	width: 620px;
+	float: left;
+}
+
+.sidebar {
+	width: 280px;
+	float: right;
+	background-color: #EEEEEE;
+}
+
+.sidebar img {
+	width: 100px;
+	float: left;
+	margin: 10px;
+}
+
+.sidebar p {
+	margin: 10px;
+	font: 14px/18px serif;
+	color: #222831;
+}
+
+.sidebar h2 {
+	margin: 20px 0px;
+	text-align: center;
+}

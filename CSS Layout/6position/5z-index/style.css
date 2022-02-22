@@ -1,0 +1,42 @@
+.container div {
+	width: 200px;
+	height: 200px;
+	font: 50px/200px serif;
+	text-align: center;
+	color: #fff;
+}
+
+.container {
+	width: 600px;
+	background-color: #F9ED69;
+	margin: 0px auto 0px;
+	padding: 10px;
+}
+
+.container div {
+	position: relative;
+}
+
+/* Gunakan z-index untuk menentukan layer keberapa div tersebut akan berada */
+
+.b1 {
+	background-color: #F08A5D;
+	/* div berada di layer yang paling depan */
+	z-index: 3;
+}
+
+.b2 {
+	background-color: #B83B5E;
+	top: -100px;
+	left: 100px;
+	/* div berada di layer tengah */
+	z-index: 2;
+}
+
+.b3 {
+	background-color: #6A2C70;
+	top: -200px;
+	left: 200px;
+	/* div berada di layer paling belakang */
+	z-index: 1;
+}

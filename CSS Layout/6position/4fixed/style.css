@@ -1,0 +1,38 @@
+.head {
+	font: 50px/100px serif;
+	color: #fff;
+	padding-left: 10px;
+	position: fixed;
+	background-color: dimgrey;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 100px;
+}
+
+.container div {
+	width: 200px;
+	height: 200px;
+	font: 50px/200px serif;
+	text-align: center;
+	color: #fff;
+}
+
+.container {
+	width: 600px;
+	background-color: #F9ED69;
+	margin: 150px auto 1000px;
+	padding: 10px;
+}
+
+.b1 {
+	background-color: #F08A5D;
+}
+
+.b2 {
+	background-color: #B83B5E;
+}
+
+.b3 {
+	background-color: #6A2C70;
+}

@@ -1,0 +1,24 @@
+div {
+	width: 200px;
+	height: 200px;
+}
+
+.a1 {
+	background-color: salmon;
+}
+
+.a2 {
+	background-color: lightgreen;
+}
+
+.a3 {
+	background-color: coral;
+}
+
+.a2 {
+	position: relative;
+	/* Relative membuat kita dapat menggerakan div tanpa mempengaruhi posisi div lain */
+	/* posisi yang diberi property ini, akan bergerak relatif dengan posisi awalnya, dan ruang posisi awalnya tetap ada */
+	top: 100px;
+	left: 100px;
+}

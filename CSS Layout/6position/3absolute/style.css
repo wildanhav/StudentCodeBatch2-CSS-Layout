@@ -1,0 +1,35 @@
+.container div {
+	width: 200px;
+	height: 200px;
+	font: 50px/200px serif;
+	text-align: center;
+	color: #fff;
+}
+
+.container {
+	width: 600px;
+	background-color: #F9ED69;
+	margin: 0px auto;
+	padding: 10px;
+	position: relative;
+}
+
+.b1 {
+	background-color: #F08A5D;
+}
+
+.b2 {
+	background-color: #B83B5E;
+	/* Absolute membuat div berada di layer lain, dan menghapus ruang dimana div berada sebelumnya */
+	position: absolute;
+	/* Div keluar dari container karena containernya berada di layer yang berbeda, 
+	maka container harus diberi property yang membuatnya berada di layer yang sama TANPA menghapus 
+	ruang div berada sebelumnya */
+	right: 100px;
+	/* Padding tidak dihitung */
+	top: 0px;
+}
+
+.b3 {
+	background-color: #6A2C70;
+}

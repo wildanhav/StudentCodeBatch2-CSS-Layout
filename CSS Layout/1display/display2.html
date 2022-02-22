@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display 2</title>
+
+	<!-- property display memiliki value berikut  -->
+	<!-- inline; sifatnya adalah, merupakan default beberapa Tag HTML, ukurannya tidak dapat diubah dengan dimensi, tidak menambahkan baris baru -->
+	<!-- inline-block; sifatnya adalah, bukan merupakan default Tag HTML manapun, ukurannya dapat diubah menggunakan dimensi, tidak menambahkan garis baru -->
+	<!-- block; sifatnya adalah, merupakan default beberapa Tag HTML, ukurannya dapat diubah, menambahkan baris baru, jika lebar tidak diatur maka block akan memenuhi browser/parentnya, block dapat diisi elemen value display lain seperti inline atau inline-block -->
+	<!-- none: sifanya adalah menghilangkan elemen dari browser -->
+
+	<style type="text/css">
+		h1 {
+			background-color: lightblue;
+		}
+		.head a {
+			width: 100px;
+			background-color: lightgreen;
+			/*property display a bervalue default inline, sehingga a tidak bisa diubah widthnya*/
+		}
+		.head a:last-child {
+			display: inline-block;
+			width: 100px;
+			height: 80px;
+			background-color: lightgreen;
+			/*property display a:last-child diatur agar valuenya menjadi inline-block, sehingga bisa diubah width & heightnya*/
+		}
+		.main {
+			background-color: lightblue;
+			width: 250px
+		}
+		.main h2 {
+			background-color: yellow;
+		}
+		.main .important {
+			background-color: blue; 
+		}
+		.main ul li {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<h1>Heading</h1>
+			<a href="">Link 1</a>
+			<a href="">Link 2</a>
+			<a href="">Link 3</a>
+			<a href="">Link 4</a>
+	</div>
+
+	<div class="main">
+		<h2>Sub Heading 1</h2>
+		<h2>Sub Heading 2</h2>
+		<!-- property display h2 bervalue default block, sehingga h2 menambah baris baru -->
+		<p>Lorem ipsum dolor sit amet, <span class="important">consectetur</span> adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<ul>
+			<li>List 1</li>
+			<li>List 2</li>
+			<li>List 3</li>
+			<li>List 4</li>
+		</ul>
+	</div>
+</body>
+</html>

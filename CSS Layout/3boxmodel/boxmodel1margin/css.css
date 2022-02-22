@@ -1,0 +1,117 @@
+.satu {
+	background-color: red;
+	width: 70px;
+	height: 70px;
+}
+
+.dua {
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+}
+
+.tiga {
+	background-color: blue;
+	width: 150px;
+	height: 150px;
+}
+
+.empat {
+	background-color: violet;
+	width: 210px;
+	height: 210px;
+}
+
+/*BAB Margin*/
+
+.kedua .satu {
+	margin-top: 70px;
+	margin-left: 70px;
+}
+
+.kedua .dua {
+	margin-left: 100px;
+}
+
+.kedua .tiga {
+	margin-left: 60px;
+}
+
+/*BAB Overlaping Margin*/
+
+.ketiga .satu {
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.ketiga .dua {
+	margin-left: 35px;
+	/*margin-top tidak terdorong karena margin vertikal ber-overlap*/
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.ketiga .tiga {
+	margin-left: 10px;
+	/*margin-top terdorong karena margin vertikal ber-overrlap & bersentuhan lagsung dengan border*/
+	margin-top: 70px;
+}
+
+/*BAB Negatif Margin*/
+
+.keempat .satu {
+	margin-top: 50px;
+}
+
+.keempat .dua {
+	margin-top: -30px;
+	margin-left: -40px;
+}
+
+.keempat .tiga {
+	margin-top: 10px;
+	margin-bottom: 120px;
+}
+
+.keempat .empat {
+	margin-top: -105px;
+	margin-left: 50px;
+}
+
+/*BAB Margin Auto*/
+
+.auto1 .satu {
+	margin-left: auto;
+}
+
+.auto1 .dua {
+	margin-right: auto;
+}
+
+.auto1 .tiga {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*BAB Shorthand Margin*/
+
+.shorthand .satu {
+	/*Seluruh arah menambahkan margin sebesar 50px*/
+	height: 50px;
+}
+
+.shorthand .dua {
+	/*Menambahkan margin ke atas-bawah, lalu ke kanan-kiri*/
+	margin: 100px 50px
+}
+
+.shorthand .tiga {
+	/*Menambahkan margin ke atas, kanan-kiri, lalu bawah*/
+	margin: 200px 100px 50px;
+}
+
+.shorthand .empat {
+	/*Menambahkan margin ke atas, kanan, bawah, lalu kiri, seperti arah JARUM JAM*/
+	margin: 100px 200px 0px 200px;
+}
